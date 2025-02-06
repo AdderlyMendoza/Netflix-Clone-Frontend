@@ -1,11 +1,34 @@
 import React from "react";
+import { IoIosSearch } from "react-icons/io";
+import { IoIosNotificationsOutline } from "react-icons/io";
 
-function Header () {
-  return (
-    <header>
-      <h1>Header</h1>
-    </header>
-  )
+
+function Header() {
+    return (
+        <header className="flex justify-between items-center py-4 px-16">
+
+            <div className="text-3xl font-bold text-red-700">
+                NETFLIX
+            </div>
+
+            <nav>
+                <ul className="flex text-white">
+                    <li><a href="#" className="p-2 hover:bg-black/50">Home</a></li>
+                    <li><a href="#" className="p-2 hover:bg-black/50">Familia</a></li>
+                    <li><a href="#" className="p-2 hover:bg-black/50">Nosotros</a></li>
+                </ul>
+            </nav>
+
+            <div className="flex space-x-4 text-white text-2xl justify-center items-center">
+                <IoIosSearch />
+                <IoIosNotificationsOutline />
+                <div className="bg-blue-500 text-white text-lg p-2 rounded-xl">
+                    U_U
+                </div>
+            </div>
+
+        </header>
+    )
 }
 
 export default Header;
