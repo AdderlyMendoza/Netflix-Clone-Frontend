@@ -5,7 +5,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 
 function Header() {
     return (
-        <header className="flex justify-between items-center py-4 px-16">
+        <header className="absolute z-10 flex justify-between items-center py-4 px-16 w-full">
 
             <div className="text-3xl font-bold text-red-700">
                 NETFLIX
