@@ -1,3 +1,5 @@
+import React from "react";
+import logoNetflix from '../assets/logoNetflix.png'
 
 function Footer() {
 
@@ -6,17 +8,19 @@ function Footer() {
         <div className="text-white border-t-2 border-gray-700 px-16 py-10 flex">
 
             <div className="flex-1">
-                <h1 className="text-red-600 text-2xl">NETFLIX</h1>
+                {/* <h1 className="text-red-600 text-2xl">NETFLIX</h1> */}
+                <img src={logoNetflix} alt="" width={120} />
+
             </div>
 
-            <div className="flex-1 text-end"> 
+            <div className="flex-1 text-end">
                 <ul>
                     <li>Home</li>
                     <li>Familia</li>
                     <li>Nosotros</li>
                 </ul>
             </div>
-            
+
         </div>
     );
 
