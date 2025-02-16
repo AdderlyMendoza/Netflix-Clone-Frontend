@@ -9,14 +9,6 @@ function Banner() {
 
         <div className="relative h-screen overflow-hidden">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${banner})` }}>
-                {/* <video
-                    autoPlay
-                    loop
-                    muted
-                    className="absolute inset-0 w-full h-full object-cover bg-center z-2">
-                    <source src="https://www.youtube.com/watch?v=3y-6iaveY6c" type="video" />
-                    Tu navegador no soporta la etiqueta de video.
-                </video> */}
                 <div className="absolute inset-0 bg-cover bg-center ">  {/*z-10 */}
                     <div className="flex items-center h-full px-16">
                         <div className="flex-1 text-white space-y-2">

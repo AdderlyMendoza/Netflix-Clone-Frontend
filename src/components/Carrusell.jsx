@@ -9,7 +9,8 @@ function Carrusell({ blog }) {
 
   return (
 
-    <div className='h-full w-[400px] m-2 flex-shrink-0 cursor-pointer'>
+    <div className='h-full w-[350px] m-2 flex-shrink-0 cursor-pointer hover:scale-105 duration-300'>
+      {/* si pongo hover:relative en vez de relative en este div el span se ve cuando se hace hover */}
       <div className='overflow-hidden mb-4 relative h-[250px]'>
         {/* <img src={`/imgs/blogpost${blog.id}.avif`} alt={blog.title} /> */}
         <img src={`fotos/${blog.imagen}`} alt={blog.title} />
