@@ -5,7 +5,7 @@ import Main from './pages/Main';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Netflix-Clone-Frontend">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<Main />} />
